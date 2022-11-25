@@ -1,45 +1,66 @@
-import { people01, people02, people03, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, star  } from "../assets";
+import { people01, people02, people03, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, star } from "../assets";
 
 export const navLinks = [
   {
-    id: "home",
-    title: "Home",
+    id: "how-we-work",
+    title: "How We Work",
   },
   {
-    id: "features",
-    title: "Features",
+    id: "sell-your-items",
+    title: "Sell Your Items",
   },
   {
-    id: "product",
-    title: "Product",
+    id: "shop",
+    title: "Shop",
   },
   {
-    id: "clients",
-    title: "Clients",
+    id: "stolen-items",
+    title: "Stolen Items",
+  },
+  {
+    id: "faqs",
+    title: "FAQs",
+  },
+  {
+    id: "giveaways",
+    title: "Giveaways",
+  },
+  {
+    id: "contact-us",
+    title: "Giveaways",
   },
 ];
 
 export const features = [
   {
     id: "feature-1",
-    icon: star,
-    title: "Rewards",
+    // icon: star,
+    icon: shield,
+    title: "Sell Your CPU",
     content:
-      "The best credit cards offer some tantalizing combinations of promotions and prizes",
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia",
   },
   {
     id: "feature-2",
     icon: shield,
-    title: "100% Secured",
+    title: "Sell Your CPU",
     content:
-      "We take proactive steps make sure your information and transactions are secure.",
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia",
   },
   {
     id: "feature-3",
+    // icon: send,
     icon: send,
-    title: "Balance Transfer",
+    title: "Sell Your RAM",
     content:
-      "A balance transfer credit card can save you a lot of money in interest charges.",
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia",
+  },
+  {
+    id: "feature-4",
+    icon: send,
+    title: "Sell Your SSD",
+    content:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia",
   },
 ];
 
