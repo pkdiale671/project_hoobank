@@ -26,8 +26,8 @@ export const navLinks = [
     title: "Giveaways",
   },
   {
-    id: "contact-us",
-    title: "Giveaways",
+    id: "cart",
+    title: "Cart",
   },
 ];
 
