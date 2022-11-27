@@ -14,7 +14,7 @@ import {
   Hero,
   // ContactUs,
 } from "../components";
-import { Route, Routes } from "react-router-dom";
+// import { Route, Routes } from "react-router-dom";
 
 const Landing = () => (
   <>

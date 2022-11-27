@@ -23,7 +23,7 @@ const Navbar = () => {
 
   return (
     <nav className="w-full flex py-6 justify-between items-center navbar">
-      {/* <img src={logo} alt="hoobank" className="w-[124px] h-[32px]" /> */}
+      <img src={logo} alt="hoobank" className="w-[124px] h-[32px]" />
 
       <ul className="list-none sm:flex hidden justify-end items-center flex-1">
         {navLinks.map((nav, index) => (
@@ -61,7 +61,7 @@ const Navbar = () => {
                 } ${index === navLinks.length - 1 ? "mb-0" : "mb-4"}`}
                 onClick={() => setActive(nav.title)}
               >
-                <Link to={`#${nav.id}`}>{nav.title}</Link>
+                <Link to={`${nav.id}`}>{nav.title}</Link>
               </li>
             ))}
           </ul>

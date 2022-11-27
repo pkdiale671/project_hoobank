@@ -1,5 +1,5 @@
 import styles from "./style";
-import { Footer, Navbar } from "./components";
+import { Footer, Navbar, Faqs } from "./components";
 import { Landing, ContactUs } from "./screens";
 import { Route, Routes } from "react-router-dom";
 
@@ -12,9 +12,12 @@ const App = () => (
     </div>
 
     <Routes>
-      <Route path="/cart" element={<Landing />} />
-      <Route path="/giveaways" element={<ContactUs />} />
+      <Route path="/landing" element={<Landing />} />
+      <Route path="/contact-us" element={<ContactUs />} />
+      <Route path="/faqs" element={<Faqs />} />
     </Routes>
+
+    
 
 
     <div className={`bg-primary ${styles.paddingX} ${styles.flexCenter}`}>
@@ -26,3 +29,5 @@ const App = () => (
 );
 
 export default App;
+
+// export default App => <Faqs />;
